@@ -11,10 +11,10 @@ load_dotenv()
 TZ = timezone(timedelta(hours=5), name="Asia/Tashkent")
 
 # Aloqa ma'lumotlari (sir emas). Koordinatalar None bo'lsa, lokatsiya yuborilmaydi.
-CONTACT_PHONE = "[to'ldiriladi]"
-CONTACT_ADDRESS = "[to'ldiriladi]"
-CONTACT_LANDMARK = "[to'ldiriladi]"
-CONTACT_HOURS = "[to'ldiriladi]"
+CONTACT_PHONE = "+998872848060"
+CONTACT_ADDRESS = "Xalqlar do'stligi ko'chasi, yangi prokuratura ro'parasi"
+CONTACT_LANDMARK = "Eski muzey"
+CONTACT_HOURS = "8:00 – 18:00"
 CONTACT_LAT: float | None = None
 CONTACT_LON: float | None = None
 
